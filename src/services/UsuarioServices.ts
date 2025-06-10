@@ -1,6 +1,6 @@
 // src/services/UsuarioService.ts
 import { Usuario } from '../models/Usuario';
-import { UsuarioRepository } from '../repositories/UsuarioRepository';
+import { UsuarioRepository } from '../repositories/UsuarioRepositories';
 
 export class UsuarioService {
   private usuarioRepository = new UsuarioRepository();
